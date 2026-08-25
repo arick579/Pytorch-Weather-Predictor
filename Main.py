@@ -148,3 +148,15 @@ for epoch in range(epochs):
             print(f"\n🛑 EARLY STOPPING TRIGGERED! Validation loss failed to improve for {patience} consecutive epochs.")
             print(f"Optimal model achieved at Epoch {epoch + 1 - patience} with MSE: {best_val_loss:.4f}")
             break
+print("\nPipeline Complete! Launching cross-validation visualizer...")
+
+plt.figure(figsize=(10, 6))
+plt.plot(train_losses, color='blue', linewidth=2, label='Training Loss')
+plt.plot(val_losses, color='red', linestyle='--', linewidth=2, label='Validation Loss (Unseen Data)')
+plt.title('LSTM Model Convergence & Early Stopping')
+plt.xlabel('Epoch (Training Rounds)')
+plt.ylabel('Mean Squared Error (MSE)')
+plt.legend()
+plt.grid(True)
+plt.savefig('loss_convergence.png', dpi=300, bbox_inches='tight')
+plt.show()
