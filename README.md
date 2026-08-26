@@ -3,7 +3,7 @@
 A deep-learning pipeline that utilizes a PyTorch Long Short-Term Memory (LSTM) neural network to analyze 5 years of historical telemetry and predict future weather patterns.
 
 ## The Tech Stack
-* **Machine Learning:** PyTorch, Torch.nn
+* **Machine Learning:** PyTorch (Torch.nn)
 * **Data Processing:** Pandas, NumPy, Scikit-learn (StandardScaler)
 * **Hardware Acceleration:** NVIDIA CUDA 
 * **Visualization:** Matplotlib
