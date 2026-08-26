@@ -15,7 +15,7 @@ A deep-learning pipeline that utilizes a PyTorch Long Short-Term Memory (LSTM) n
 4. **Automated Early Stopping:** Monitors validation loss on unseen data during the training loop, automatically halting execution to capture optimal model weights before catastrophic overfitting occurs.
 
 ## Visual Proof
-<img width="1213" height="731" alt="image" src="https://github.com/user-attachments/assets/1cec766a-7e78-4d60-993d-26b9ddcf11c9" />
+<img width="1226" height="746" alt="Screenshot 2026-07-25 114850" src="https://github.com/user-attachments/assets/ba8e1bd3-e41e-4678-acee-7981ce417cd2" />
 
 ## How to Run Locally
 **1. Install Dependencies:**
