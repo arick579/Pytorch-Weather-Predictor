@@ -1,4 +1,4 @@
-name: Python CI Pipeline
+name: PyTorch ML Pipeline
 
 on:
   push:
