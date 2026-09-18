@@ -1,7 +1,7 @@
 ![Build & Test Pipeline](https://github.com/arick579/Pytorch-Weather-Predictor/actions/workflows/deploy.yml/badge.svg)
 # Pytorch-Weather-Predictor
 
-A deep-learning pipeline that utilizes a PyTorch Long Short-Term Memory (LSTM) neural network to analyze 5 years of historical telemetry and predict future weather patterns.
+>A deep-learning pipeline that utilizes a PyTorch Long Short-Term Memory (LSTM) neural network to analyze 5 years of historical telemetry and predict future weather patterns.
 
 ## The Tech Stack
 * **Machine Learning:** PyTorch (Torch.nn)
