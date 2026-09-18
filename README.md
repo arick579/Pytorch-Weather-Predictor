@@ -25,4 +25,4 @@ pip install -r requirements.txt
 ```
 **2. Execute the Training Pipeline:**
 ```bash
-python Main.py
+python main.py
